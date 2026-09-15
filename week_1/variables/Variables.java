@@ -7,7 +7,7 @@ package week_1.variables;
  * @date 15th Sep, 2026
  * Variables
  * Variables are the name allocated to a memory
- * It's not mandatory but in java the variables are usually in camel casing with these condtions:
+ * It's not mandatory but in java the variables are preferred in camel casing with these condtions:
  * 1. It will always start with alphabet
  * 2. Numbers can also be used but not in the start
  * 3. No special character to be used except "_".
