@@ -6,18 +6,18 @@ import java.io.InputStreamReader;
 
 public class IfElseStatement {
 
-    private static void ifElseStatement(Short age){
-        if (age >= 18){
-            System.out.println("You're eligible for voting");
+    private static void ifElseStatement(int n){
+        if (n % 2 == 0){
+            System.out.println("It's a even number!");
         } else {
-            System.out.println("You're not eligible for voting");
+            System.out.println("It's an odd number!");
         }
     }
     public static void main(String[] args) throws IOException{
         BufferedReader  reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Enter your age: ");
-        short age = Short.parseShort(reader.readLine());
-        ifElseStatement(age);
+        System.out.print("Enter number: ");
+        int n = Integer.parseInt(reader.readLine());
+        ifElseStatement(n);
         reader.close();
     }
 }
