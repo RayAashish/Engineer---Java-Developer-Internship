@@ -13,6 +13,7 @@ public class ArithmeticOperators {
         System.out.println(- 5.0 / 0); // -Infinity
         System.out.println(5.0 / 0); // Infinity
         System.out.println(b / 2.0); // One operand is double so the result will also be a double
+        System.out.println(0.0/0);
         System.out.println(a / 0); // ArithmeticException
     }
     public static void main(String[] args) {
