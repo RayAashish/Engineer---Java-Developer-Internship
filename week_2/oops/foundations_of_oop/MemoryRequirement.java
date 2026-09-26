@@ -14,6 +14,11 @@ import week_2.oops.foundations_of_oop.BankAccount;
 public class MemoryRequirement {
     public static void main(String[] args) {
         BankAccount acc = new BankAccount(10000.0, "Mr. Ray");
+        // acc2 doesn't created any extra object in the heap memory
+        // But the varaible acc2 gets stored in stack space
+        // referencing to the object of acc
+        BankAccount acc2 = acc;
         System.out.println(acc);
+        System.out.println(acc2);
     }
 }
