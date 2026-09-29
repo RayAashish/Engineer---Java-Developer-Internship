@@ -1,4 +1,4 @@
-package week_2.oops.contructors;
+package week_2.oops.contructors.codes;
 
 public class DefaultVsNoArgsConstructor {
     public static void main(String[] args) {
