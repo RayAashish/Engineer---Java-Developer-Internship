@@ -1,5 +1,5 @@
-package week_2.oops.foundations_of_oop;
-import week_2.oops.foundations_of_oop.BankAccount;
+package week_2.oops.foundations_of_oop.codes;
+import week_2.oops.foundations_of_oop.codes.BankAccount;
 
 /**
  * @author Aashish Kumar Ray

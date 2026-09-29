@@ -1,4 +1,4 @@
-package week_2.oops.foundations_of_oop;
+package week_2.oops.foundations_of_oop.codes;
 
 public class StructureOfClass {
     public static void main(String[] args) {
