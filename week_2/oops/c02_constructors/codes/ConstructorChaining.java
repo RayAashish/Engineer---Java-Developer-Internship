@@ -1,5 +1,3 @@
-package week_2.oops.contructors.codes;
-
 public class ConstructorChaining {
     public static void main(String[] args) {
         Car c1 = new Car("Super Car");

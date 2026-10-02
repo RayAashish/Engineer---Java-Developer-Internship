@@ -1,4 +1,3 @@
-package week_2.oops.contructors.codes;
 
 public class CopyConstructor {
     public static void main(String[] args) {

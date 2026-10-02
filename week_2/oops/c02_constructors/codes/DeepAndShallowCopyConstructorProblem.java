@@ -1,4 +1,4 @@
-package week_2.oops.contructors.codes;
+
 
 public class DeepAndShallowCopyConstructorProblem {
     public static void main(String[] args) {
@@ -16,10 +16,9 @@ public class DeepAndShallowCopyConstructorProblem {
         // copyStudent.address.city = "Hyderabad";
         // System.out.println(orginalStudent.toString());
         // System.out.println(copyStudent.toString());
-
-        Teacher teacher = new Teacher("Oxil");
-        Course orginalCourse = new Course(1, teacher);
-        Course copyCourse = Course.copyOf(orginalCourse);
+        TeacherX teacher = new TeacherX("Oxil");
+        CourseX orginalCourse = new CourseX(1, teacher);
+        CourseX copyCourse = CourseX.copyOf(orginalCourse);
         copyCourse.changeTeacher("Bomman"); //It will change the name of teacher in orginal as well so to solve this, always make sure to pass via a new object
         System.out.println(orginalCourse.toString());
         System.out.println(copyCourse.toString());
@@ -33,11 +32,11 @@ class Address {
     }
 }
 
-class Student {
+class StudentX {
     String name;
     Address address;
 
-    public Student(String name, Address address) {
+    public StudentX(String name, Address address) {
         this.name = name;
         this.address = address;
     }
@@ -49,7 +48,7 @@ class Student {
      * & this problem can't be solved by encapsulation as well
      * we must inititate with new keyword
      */
-    public Student(Student other) {
+    public StudentX(StudentX other) {
         this.name = other.name;
         // this.address = other.address;
         this.address = new Address(other.address.city);
@@ -60,8 +59,8 @@ class Student {
      * @return
      * The above problem can be solved using a static method as well.
      */
-    static Student copyOf(Student other){
-        return new Student(other.name, new Address(other.address.city));
+    static StudentX copyOf(StudentX other){
+        return new StudentX(other.name, new Address(other.address.city));
     }
 
     @Override
@@ -71,9 +70,9 @@ class Student {
 
 }
 
-class Teacher{
+class TeacherX{
     private String teacherName;
-    public Teacher(String teacherName){
+    public TeacherX(String teacherName){
         this.teacherName = teacherName;
     }
     public String getTeacherName() {
@@ -84,19 +83,19 @@ class Teacher{
         this.teacherName = teacherName;
     }
 }
-class Course{
+class CourseX{
     private int id;
-    private Teacher teacher;
+    private TeacherX teacher;
 
     
-    public Course(int id, Teacher teacher) {
+    public CourseX(int id, TeacherX teacher) {
         this.id = id;
         this.teacher = teacher;
         // this.teacher = new Teacher(teacher.getTeacherName()); //If we put this & call changeTeacher() method
         //It will create a deep copy rather than shallow copy
     }
-    static Course copyOf(Course other){
-        return new Course(other.id, other.teacher);
+    static CourseX copyOf(CourseX other){
+        return new CourseX(other.id, other.teacher);
     }
     void changeTeacher(String teacherName){
         this.teacher.setTeacherName(teacherName);
@@ -107,10 +106,10 @@ class Course{
     public void setId(int id) {
         this.id = id;
     }
-    public Teacher getTeacher() {
+    public TeacherX getTeacher() {
         return teacher;
     }
-    public void setTeacher(Teacher teacher) {
+    public void setTeacher(TeacherX teacher) {
         this.teacher = teacher;
     }
     @Override

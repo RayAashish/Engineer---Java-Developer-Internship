@@ -1,4 +1,4 @@
-package week_2.oops.contructors.codes;
+
 
 public class ConstructorStructure {
     public static void main(String[] args) {

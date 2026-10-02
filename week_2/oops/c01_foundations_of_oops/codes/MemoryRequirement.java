@@ -1,5 +1,4 @@
-package week_2.oops.foundations_of_oop.codes;
-import week_2.oops.foundations_of_oop.codes.BankAccount;
+package week_2.oops.c01_foundations_of_oops.codes;
 
 /**
  * @author Aashish Kumar Ray
@@ -20,5 +19,7 @@ public class MemoryRequirement {
         BankAccount acc2 = acc;
         System.out.println(acc);
         System.out.println(acc2);
+        BankAccount a = new BankAccount();
     }
 }
+

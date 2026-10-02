@@ -1,4 +1,4 @@
-package week_2.oops.foundations_of_oop.codes;
+package week_2.oops.c01_foundations_of_oops.codes;
 
 /**
  * @author Aashish Kumar Ray
