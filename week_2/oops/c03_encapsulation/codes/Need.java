@@ -10,7 +10,7 @@ public class Need {
 }
 
 class Account{
-    private double balance = 0;
+    private double balance = 0; //Default balance is 0
 
     public void depositBalance(double amount){
         if (this.balance < 0)
