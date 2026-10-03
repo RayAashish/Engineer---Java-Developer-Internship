@@ -118,7 +118,7 @@ class Main {
 If you write **no** access modifier at all, Java applies **default** access — also called **package-private**. The member is visible to **any class in the same package**, but not to classes in other packages.
 
 ```java
-package com.coderarmy.accounts;
+package com.raysi.accounts;
 
 class Account {          // package-private class
     double balance;      // package-private field (no modifier)
@@ -130,7 +130,7 @@ class Account {          // package-private class
 ```
 
 ```java
-package com.coderarmy.accounts;
+package com.raysi.accounts;
 
 class Bank {              // same package
     void test() {
@@ -142,9 +142,9 @@ class Bank {              // same package
 ```
 
 ```java
-package com.coderarmy.reports;
+package com.raysi.reports;
 
-import com.coderarmy.accounts.Account;   // won't even compile if Account itself is package-private
+import com.raysi.accounts.Account;   // won't even compile if Account itself is package-private
 
 class Report {
     void test() {
@@ -167,7 +167,7 @@ Default access is useful for things an entire **module/package** should share in
 - In **subclasses**, even if those subclasses live in a **different package**
 
 ```java
-package com.coderarmy.animals;
+package com.raysi.animals;
 
 public class Animal {
     protected String name;
@@ -179,9 +179,9 @@ public class Animal {
 ```
 
 ```java
-package com.coderarmy.pets;
+package com.raysi.pets;
 
-import com.coderarmy.animals.Animal;
+import com.raysi.animals.Animal;
 
 public class Dog extends Animal {
     void bark() {
@@ -194,9 +194,9 @@ public class Dog extends Animal {
 But a class in a different package that is **not** a subclass still cannot access it:
 
 ```java
-package com.coderarmy.other;
+package com.raysi.other;
 
-import com.coderarmy.animals.Animal;
+import com.raysi.animals.Animal;
 
 class Test {
     void test() {
@@ -215,7 +215,7 @@ class Test {
 `public` members are accessible from **anywhere** — any class, in any package, with no restriction at all.
 
 ```java
-package com.coderarmy.accounts;
+package com.raysi.accounts;
 
 public class Account {
     public String accountHolder;     // accessible from anywhere
@@ -227,9 +227,9 @@ public class Account {
 ```
 
 ```java
-package com.coderarmy.app;
+package com.raysi.app;
 
-import com.coderarmy.accounts.Account;
+import com.raysi.accounts.Account;
 
 class Main {
     public static void main(String[] args) {
@@ -415,7 +415,7 @@ class DateRange {
 
 ## 10. Packages and Access Control
 
-A **package** is Java's way of grouping related classes together (and it also forms part of a class's fully qualified name, e.g. `com.coderarmy.accounts.Account`).
+A **package** is Java's way of grouping related classes together (and it also forms part of a class's fully qualified name, e.g. `com.raysi.accounts.Account`).
 
 Packages interact directly with access control:
 
@@ -424,16 +424,16 @@ Packages interact directly with access control:
 - **`public`** and **`private`** don't care about packages at all — `public` ignores package boundaries completely (visible everywhere), and `private` ignores them too, but in the opposite direction (visible to nothing outside the single class).
 
 ```text
-com.coderarmy.accounts
+com.raysi.accounts
     Account.java      (public class Account)
     AccountHelper.java (package-private class AccountHelper)
 
-com.coderarmy.app
+com.raysi.app
     Main.java          (imports Account, but CANNOT see AccountHelper)
 ```
 
 ```java
-package com.coderarmy.accounts;
+package com.raysi.accounts;
 
 public class Account {
     // public API
@@ -445,10 +445,10 @@ class AccountHelper {     // package-private — an internal implementation deta
 ```
 
 ```java
-package com.coderarmy.app;
+package com.raysi.app;
 
-import com.coderarmy.accounts.Account;
-// import com.coderarmy.accounts.AccountHelper;   // would not even compile — class isn't visible
+import com.raysi.accounts.Account;
+// import com.raysi.accounts.AccountHelper;   // would not even compile — class isn't visible
 
 class Main {
     public static void main(String[] args) {
