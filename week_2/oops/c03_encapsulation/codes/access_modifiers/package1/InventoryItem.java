@@ -1,4 +1,4 @@
-package week_2.oops.c03_encapsulation.codes.access_modifiers;
+package week_2.oops.c03_encapsulation.codes.access_modifiers.package1;
 
 import java.util.ArrayList;
 import java.util.List;

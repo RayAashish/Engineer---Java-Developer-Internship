@@ -1,4 +1,4 @@
-package week_2.oops.c03_encapsulation.codes;
+package week_2.oops.c03_encapsulation.codes.access_modifiers.package2;
 
 public class SmartLock {
     private final String lockCode = "abc";

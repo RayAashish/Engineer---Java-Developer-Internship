@@ -1,6 +1,6 @@
 package week_2.oops.c03_encapsulation.codes.access_modifiers;
 
-import week_2.oops.c03_encapsulation.codes.SmartLock;
+import week_2.oops.c03_encapsulation.codes.access_modifiers.package2.SmartLock;
 
 /**
  * Public
