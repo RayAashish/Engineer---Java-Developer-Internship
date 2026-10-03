@@ -9,6 +9,16 @@ public class Need {
     }
 }
 
+
+/**
+ * Account
+ * Why do we even need Encapsulation in the first place 
+ * Think of a banking application, where a balance field is there 
+ * We will never ever think of it to give a direct access to it.
+ * We even don't want the balance to go in negative
+ * so we make a setter method of balance which can explicelty
+ * check of the balance is negative of not. 
+ */
 class Account{
     private double balance = 0; //Default balance is 0
 
