@@ -1,4 +1,4 @@
-package week_2.oops.c05_polymorphism.codes.ambigious_overloading;
+package week_2.oops.c05_polymorphism.codes.static_polymorphism.ambigious_overloading;
 
 public class AmbigiousOverloading {
     /**

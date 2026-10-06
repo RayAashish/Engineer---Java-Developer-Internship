@@ -1,4 +1,4 @@
-package week_2.oops.c05_polymorphism.codes.overloading_resolution_rules;
+package week_2.oops.c05_polymorphism.codes.static_polymorphism.overloading_resolution_rules;
 
 
 public class Varargs {

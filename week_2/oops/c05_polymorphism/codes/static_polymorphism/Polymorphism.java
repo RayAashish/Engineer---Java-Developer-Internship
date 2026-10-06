@@ -1,4 +1,4 @@
-package week_2.oops.c05_polymorphism.codes;
+package week_2.oops.c05_polymorphism.codes.static_polymorphism;
 
 public class Polymorphism {
     public static void main(String[] args) {
