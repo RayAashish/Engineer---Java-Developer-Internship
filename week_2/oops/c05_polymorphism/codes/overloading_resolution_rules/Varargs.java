@@ -1,14 +1,15 @@
 package week_2.oops.c05_polymorphism.codes.overloading_resolution_rules;
 
+
 public class Varargs {
     public static void main(String[] args) {
-        Box box = new Box();
-        box.show(2, 1, 9);
-        box.show(2, 3, 4, 8);
+        new Box2().show(2, 1, 9);
+        new Box2().show(2, 3, 4, 8);
+        new Box2().show(1);
     }
 }
 
-class Box{
+class Box2{
     void show(int a, int b, int c){
         System.out.println("int");
     }
