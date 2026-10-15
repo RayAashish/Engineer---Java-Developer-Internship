@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class StackImplementation {
     public static void main(String[] args) {
-        StackImp<Integer> s = new StackImp();
+        StackImp<Integer> s = new StackImp<>();
         s.push(12);
         s.push(9);
         s.push(19);
