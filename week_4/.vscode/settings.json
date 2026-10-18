@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "java-exception-handling-mastery/src/main/java",
+        "java-io-nio-mastery/src/main/java"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "code-runner.executorMap": {
+        "java": "java \"$fullFileName\""
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true
+}
