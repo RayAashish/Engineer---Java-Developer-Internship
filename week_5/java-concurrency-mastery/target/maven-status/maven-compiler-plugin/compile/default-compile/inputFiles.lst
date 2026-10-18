@@ -1,0 +1,17 @@
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase1_threads_and_memory_model/codes/DaemonThreadAndGracefulInterruptDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase1_threads_and_memory_model/codes/ThreadStatesLifecycleInspector.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase1_threads_and_memory_model/codes/VolatileCpuCacheVisibilityBugDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase2_synchronization_and_locks/codes/DeadlockDetectionAndPreventionDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase2_synchronization_and_locks/codes/ObjectHeaderMarkWordMonitorDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase2_synchronization_and_locks/codes/ProducerConsumerWaitNotifyVsCondition.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase2_synchronization_and_locks/codes/ReentrantReadWriteAndStampedLockDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase3_lockfree_atomics_and_synchronizers/codes/AtomicCASVsSynchronizedBenchmark.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase3_lockfree_atomics_and_synchronizers/codes/CountDownLatchCyclicBarrierSemaphoreDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase3_lockfree_atomics_and_synchronizers/codes/LongAdderHighContentionCounterDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase3_lockfree_atomics_and_synchronizers/codes/ThreadLocalMemoryLeakInThreadPoolDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase4_executors_and_completablefuture/codes/CompletableFutureMicroserviceAggregator.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase4_executors_and_completablefuture/codes/CustomThreadPoolExecutorRejectionDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase4_executors_and_completablefuture/codes/ForkJoinPoolWorkStealingDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase5_virtual_threads_project_loom/codes/CarrierThreadMountingAndPinningTrapDemo.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase5_virtual_threads_project_loom/codes/PlatformVsVirtualThreads100kBenchmark.java
+/Users/aashishkumarray/Desktop/engineer-java development/week_5/java-concurrency-mastery/src/main/java/com/raysi/concurrency/phase5_virtual_threads_project_loom/codes/StructuredTaskScopeShutdownOnFailureDemo.java
